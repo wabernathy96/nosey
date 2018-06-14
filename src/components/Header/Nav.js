@@ -6,8 +6,10 @@ const Nav = (props) => (
     <NavItem className='Title'>
       {props.children}
     </NavItem>
-    <NavItem className='scores'> 
+    <NavItem className='score'> 
       Score: {props.score}
+    </NavItem>
+    <NavItem>
       Highscore: {props.highscore}
     </NavItem>
   </Navbar>
